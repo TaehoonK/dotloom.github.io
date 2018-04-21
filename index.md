@@ -3,6 +3,8 @@
 
 # About
 
+![Dotloom](/assets/img/logo_color_256px.png)
+
 Sharing data securely and reliably is tedious, transferring big spatial data is a real challenge! Data portals, web services and platforms often struggle already with uploading and downloading the data, requiring large investments in IT infrastructure and fast and stable internet connection, and still it requires patience by the user. Dotloom wants to change this and make the sharing of data easy, enjoyable, secure and efficient.
 
 Dotloom is a distributed system for synchronizing, replicating, indexing and processing of terabytes of point-cloud data with peer-to-peer technologies. The distributed nature allows instant exchange between data producers and data consumers.
