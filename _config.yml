@@ -3,3 +3,8 @@ description: Next Generation Point-cloud Platform
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
+
+github:
+  organization_name: Dotloom Project
+  organization_url: https://github.com/dotloom
+  
