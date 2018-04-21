@@ -1,3 +1,5 @@
-theme: jekyll-theme-cayman
 title: Dotloom Project
 description: Next Generation Point-cloud Platform
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-cayman
