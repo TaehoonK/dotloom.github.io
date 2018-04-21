@@ -3,7 +3,7 @@
 
 # About
 
-![Dotloom](/assets/img/logo_color_256px.png){.left}
+<img align="left" width="256" height="256" src="/assets/img/logo_color_256px.png" alt="Dotloom">
 
 Sharing data securely and reliably is tedious, transferring big spatial data is a real challenge! Data portals, web services and platforms often struggle already with uploading and downloading the data, requiring large investments in IT infrastructure and fast and stable internet connection, and still it requires patience by the user. Dotloom wants to change this and make the sharing of data easy, enjoyable, secure and efficient.
 
