@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+# Dotloom Website
 
-You can use the [editor on GitHub](https://github.com/dotloom/dotloom.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This site uses the [Particle](https://github.com/nrandecker/particle) Jekyll Theme
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The Theme features:
 
-### Markdown
+- Gulp
+- SASS
+- Sweet Scroll
+- Particle.js
+- BrowserSync
+- Font Awesome and Devicon icons
+- Google Analytics
+- Info Customization
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Changing content
 
-```markdown
-Syntax highlighted code block
+Change content in the site by filling in information in the `_config.yml` file. For example, add to the "About" section by adding text to `about:`
 
-# Header 1
-## Header 2
-### Header 3
+```
+# Site settings
+title: Dotloom Project
+description: Next Generation Point Cloud Platform
+author: Dotloom Project
 
-- Bulleted
-- List
+# Page Information
+about: <add information about the project here>
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+...
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Running local
 
-### Jekyll Themes
+To see the site locally, node, ruby, and Jekyll need to be installed.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dotloom/dotloom.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Then, in the site directory,
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Run `npm install`
+- Run `gulp`

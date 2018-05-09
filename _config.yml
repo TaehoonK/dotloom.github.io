@@ -1,10 +1,23 @@
+# Site settings
 title: Dotloom Project
-description: Next Generation Point-cloud Platform
-show_downloads: false
-google_analytics:
-theme: jekyll-theme-cayman
+description: Next Generation Point Cloud Platform
+author: Dotloom Project
 
-github:
-  organization_name: Dotloom Project
-  organization_url: https://github.com/dotloom
-  
+# Page Information
+about:
+  Dotloom is an open source platform for working with very large point cloud
+  datasets. It allows for fast, seamless and secure data sharing, and provides
+  powerful processing pipelines for analysis and visualization. Dotloom is
+  built using the Dat Protocol and is modelled after the best parts of Git,
+  BitTorrent, and the Internet, and utilizes the most powerful open source
+  point cloud processing and visualization tools. From data collection from
+  remote sensors to consumer ready data products, Dotloom strives to make every
+  step of working with point cloud data as secure, simple, and efficient as
+  possible. Dotloom is built with speed, security, and efficiency in mind.
+github_username: dotloom
+
+# Google-analytics
+google-analytics:
+  id: ""
+
+exclude: ['package.json', 'src' , 'node_modules']
