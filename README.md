@@ -2,9 +2,9 @@
 
 This site uses the [Particle](https://github.com/nrandecker/particle) Jekyll Theme
 
-![](./assets/img/screenshot1)
+![](./assets/img/screenshot1.png)
 
-![](./assets/img/screenshot2)
+![](./assets/img/screenshot2.png)
 
 The Theme features:
 
