@@ -2,6 +2,10 @@
 
 This site uses the [Particle](https://github.com/nrandecker/particle) Jekyll Theme
 
+![](./assets/img/screenshot1)
+
+![](./assets/img/screenshot2)
+
 The Theme features:
 
 - Gulp
