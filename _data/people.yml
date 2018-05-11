@@ -1,3 +1,4 @@
+# Team information
 - name: "Daniel Kastl"
   github: "dkastl"
   twitter: "dkastl"
@@ -7,7 +8,7 @@
 
 - name: "Iosefa Percival"
   github: "iosefa"
-  twitter: "iosefa_p"
+  twitter: "NA"
   website: "https://www.linkedin.com/in/iosefa-percival"
   organization: "Georepublic"
   description: "Lorem ipsum dolor sit amet, ex pri consul maiorum, et veniam tacimates his. Tantas oporteat consectetuer vel ei, sed accusam perpetua cu. No magna mutat aperiam vis, vix petentium rationibus cu. Quo nibh indoctum ex, ne quo probo illud. Te agam explicari mea."
@@ -18,10 +19,3 @@
   website: "https://www.linkedin.com/in/salmanahmedshaikh/"
   organization: "AIST"
   description: "I am mainly related to databases, more specifically Big Data (Data Stream) Management, Processing and Analysis. I have experience of working with Big Data (Data Stream) Processing and its Multidimensional Analysis (OLAP), Data Mining, Data Warehousing, Data Structures, etc."
-  
-- name: "Dot Loom"
-  github: "dotloom"
-  twitter: "dotloom"
-  website: "https://www.dotloom.io"
-  organization: "Dotloom"
-  description: "Lorem ipsum dolor sit amet, ex pri consul maiorum, et veniam tacimates his. Tantas oporteat consectetuer vel ei, sed accusam perpetua cu. No magna mutat aperiam vis, vix petentium rationibus cu. Quo nibh indoctum ex, ne quo probo illud. Te agam explicari mea."

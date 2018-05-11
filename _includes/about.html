@@ -1,0 +1,49 @@
+ <div class="user-details">
+  <h1>
+    Next Generation Point Cloud Platform
+  </h1>
+  <p> {{site.about}}</p>
+</div>
+
+
+<div class="user">
+  <div class="tech">
+    <h2>About</h2>
+    <i class="devicon-electron-original colored"></i>
+    <i class="devicon-nodejs-plain-wordmark colored"></i>
+    <i class="devicon-git-plain colored"></i>
+    <p>Open source, secure, and fast. Dotloom is built using the Dat Protocol and is modelled after the best parts of Git, BitTorrent, and the Internet, and utilizes the most powerful open source point cloud processing and visualization tools. </p>
+  </div>
+  <div class="tech">
+    <h2>Try</h2>
+    <img src="../assets/img/logo_color_256px.png"></i>
+    <i class="devicon-docker-plain colored"></i>
+    <!-- <i class="devicon-docker-plain-wordmark colored"></i> -->
+    <p>Dotloom allows for fast, seamless and secure data sharing, and provides powerful processing pipelines for analysis and visualization. Try it soon! It is not available now, however you can watch how it works <a href="https://www.youtube.com/playlist?list=PLdYo_1kHBRZvKAPDqNkdsYo4pvZj1Tn1N">here.</a></p>
+  </div>
+</div>
+
+
+<!-- To get the avatar of a github user account: -->
+<!-- https://github.com/iosefa.png?size=200 -->
+
+<div class="user-details">
+ <h1>
+   Team
+ </h1>
+</div>
+
+<div class="parent">
+  <!-- {% assign include = site.data.people | where: 'show', 'true' %} -->
+  {% for person in site.data.people %}
+    <div class="child">
+      <img src="https://github.com/{{ person.github }}.png?size=200.png" alt="">
+      <h3>{{ person.name }}</h3>
+      <h4>({{ person.organization }})</h4>
+      <a href="https://github.com/{{ person.github }}"><i class="devicon-github-plain"></i></a>
+      {% if person.twitter != 'NA' %}
+        <a href="https://twitter.com/{{ person.twitter }}"><i class="devicon-twitter-plain"></i></a>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
